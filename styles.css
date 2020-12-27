@@ -1,0 +1,116 @@
+/* CSS reset, A * jel az úgynevezett universal selector-t (általános szelektor) jelöli. Az itt leírt szabályok minden elemre érvényesek lesznek az oldalunkon. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  /* egesz body-re vonatkozo flex-box hasznalat */
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  body {
+    background: url('https://media1.popsugar-assets.com/files/thumbor/zuQi1PFTQVh62ztlAsqMhR_ic44/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/04/11/024/n/41570627/2beaee042235dd82_30._MSDBROF_EC032_H/i/Bridges-Madison-County.JPG') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .head, .links {
+    text-align: center;
+  }
+  
+  .head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .fa-map-marker {
+    color: darkblue;
+  }
+  
+  .content {
+    padding: 5% 10%;
+  }
+  
+  .content {
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+  }
+  
+  .name-headline, .about {
+    padding: 5% 10%;
+  }
+  
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  img {
+    padding: 1px;
+    background-color: #666;
+    filter: grayscale(50%);
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(20%);
+  }
+  
+  
+  .profile-card {
+    background-color: hsla(60, 100%, 50%, .4);
+    width: 480px;
+    max-width: calc(100vw - 10px);
+  }
+  
+  .profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  }
+  
+  /* Contact links, no bulletpoints shown */
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .head, .about {
+    margin-bottom: 10%;
+  }
+  
+  h2 { text-transform: uppercase; 
+  }
+  
+  ul {
+    font-size: 2em;
+  }
+  
+  a {
+    color: grey;
+  }
+  
+  a:hover {
+    color: rgb(173, 26, 21);
+  }
+  
+  .profile-image {
+    margin-top: -60px;
+  }
+
+  p {
+      font-size: xx-large;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
