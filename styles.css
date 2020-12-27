@@ -30,6 +30,7 @@
     margin: 0 auto;
   }
   
+  /* not in use */
   .fa-map-marker {
     color: darkblue;
   }
@@ -45,32 +46,32 @@
   .name-headline, .about {
     padding: 5% 10%;
   }
-  
+  /* not in use */
   img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
   }
-  
+  /* not in use */
   img {
     padding: 1px;
     background-color: #666;
     filter: grayscale(50%);
   }
-  
+  /* not in use */
   img:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
     filter: grayscale(20%);
   }
   
-  
+  /* not in use */
   .profile-card {
     background-color: hsla(60, 100%, 50%, .4);
     width: 480px;
     max-width: calc(100vw - 10px);
   }
-  
+  /* not in use */
   .profile-card {
     background-color: hsla(0, 0%, 100%, .5);
     border-radius: 4px;
@@ -90,7 +91,7 @@
   .head, .about {
     margin-bottom: 10%;
   }
-  
+  /* not in use */
   h2 { text-transform: uppercase; 
   }
   
@@ -99,7 +100,7 @@
   }
   
   a {
-    color: grey;
+    color:darkolivegreen;
   }
   
   a:hover {
